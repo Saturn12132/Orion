@@ -14,12 +14,12 @@ local OrionLib = {
 	Flags = {},
 	Themes = {
 		Default = {
-			Main = Color3.fromRGB(26, 32, 58),
+			Text = Color3.fromRGB(200, 200, 200),
 			Second = Color3.fromRGB(38, 45, 71),
+			Main = Color3.fromRGB(26, 32, 58),
 			Stroke = Color3.fromRGB(43, 51, 80),
 			Divider = Color3.fromRGB(220, 220, 220),
-			Text = Color3.fromRGB(200, 200, 200),
-			TextDark = Color3.fromRGB(150, 150, 150)
+			TextDark = Color3.fromRGB(150, 150, 150),
 		}
 	},
 	SelectedTheme = "Default",
@@ -915,7 +915,7 @@ function OrionLib:MakeWindow(WindowConfig)
 				ToggleConfig.Name = ToggleConfig.Name or "Toggle"
 				ToggleConfig.Default = ToggleConfig.Default or false
 				ToggleConfig.Callback = ToggleConfig.Callback or function() end
-				ToggleConfig.Color = ToggleConfig.Color or Color3.fromRGB(9, 99, 195)
+				ToggleConfig.Color = ToggleConfig.Color or Color3.fromRGB(83, 83, 203)
 				ToggleConfig.Flag = ToggleConfig.Flag or nil
 				ToggleConfig.Save = ToggleConfig.Save or false
 
@@ -1001,7 +1001,7 @@ function OrionLib:MakeWindow(WindowConfig)
 				SliderConfig.Default = SliderConfig.Default or 50
 				SliderConfig.Callback = SliderConfig.Callback or function() end
 				SliderConfig.ValueName = SliderConfig.ValueName or ""
-				SliderConfig.Color = SliderConfig.Color or Color3.fromRGB(9, 149, 98)
+				SliderConfig.Color = SliderConfig.Color or Color3.fromRGB(83, 83, 203)
 				SliderConfig.Flag = SliderConfig.Flag or nil
 				SliderConfig.Save = SliderConfig.Save or false
 
